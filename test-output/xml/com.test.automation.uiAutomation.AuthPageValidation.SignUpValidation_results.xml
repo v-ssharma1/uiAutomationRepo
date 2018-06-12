@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="AuthPageValidation"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="3"
+           time="8.379">
+  <properties />
+  
+            <testcase name="verifyLandingOnNewAccountCreationInfoPage" time="0.0" classname="com.test.automation.uiAutomation.AuthPageValidation.SignUpValidation">
+          <skipped />
+    </testcase>
+            <testcase name="verifyLandingOnNewAccountCreationInfoPage" time="0.0" classname="com.test.automation.uiAutomation.AuthPageValidation.SignUpValidation">
+          <skipped />
+    </testcase>
+            <testcase name="verifyLandingOnNewAccountCreationInfoPage" time="0.0" classname="com.test.automation.uiAutomation.AuthPageValidation.SignUpValidation">
+          <skipped />
+    </testcase>
+  
+            <testcase name="verifyLandingOnNewAccountCreationInfoPage" time="8.376" classname="com.test.automation.uiAutomation.AuthPageValidation.SignUpValidation" />
+      
+</testsuite>

@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 21, Failures: 1, Errors: 0, Skipped: 14, Time elapsed: 51.017 s <<< FAILURE! - in TestSuite
+verifyLoginWithValidCredentials(com.test.automation.uiAutomation.AuthPageValidation.SignInValidation)  Time elapsed: 5.655 s  <<< FAILURE!
+java.lang.AssertionError: expected [Authentication passed.] but found [Authentication failed.]
+	at com.test.automation.uiAutomation.AuthPageValidation.SignInValidation.verifyLoginWithValidCredentials(SignInValidation.java:66)
+
