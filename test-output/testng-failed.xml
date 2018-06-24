@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="4" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="com.test.automation.uiAutomation.RetryFailedTests.Transformation"/>
+  </listeners>
+  <test name="AuthPageValidation">
+    <classes>
+      <class name="com.test.automation.uiAutomation.AuthPageValidation.accountCreateionValidation"/>
+    </classes>
+  </test> <!-- AuthPageValidation -->
+  <test name="AuthPageValidation(failed)" parallel="tests">
+    <classes>
+      <class name="com.test.automation.uiAutomation.AuthPageValidation.accountCreateionValidation">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="endTest"/>
+          <include name="setup"/>
+          <include name="successfullAccountCreationValidation" invocation-numbers="0 0 0"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.test.automation.uiAutomation.AuthPageValidation.accountCreateionValidation -->
+    </classes>
+  </test> <!-- AuthPageValidation(failed) -->
+</suite> <!-- Failed suite [Suite] -->

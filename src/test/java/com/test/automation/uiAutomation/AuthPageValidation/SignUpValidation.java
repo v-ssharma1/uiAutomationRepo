@@ -34,7 +34,7 @@ public class SignUpValidation extends TestBase {
 			log.info("=================Start AccountCreation Page Test====================");
 			AuthenticationPage = new AuthenticationPage(driver);
 			AuthenticationPage.signUpToApp(UserName);
-			getScreenShot("LoginWithValidCredentials_" + UserName);
+			getScreenShot("LoginWithValidCredentials :" + UserName);
 			Assert.assertEquals(AuthenticationPage.getAccountCreationPageText(),
 					ActaulResultsStrings.actualAccountCreationPageText);
 			log.info("Successfully landed on account information Page.");

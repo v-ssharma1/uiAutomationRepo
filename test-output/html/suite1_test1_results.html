@@ -12,42 +12,368 @@
 <body>
 <h1>AuthPageValidation</h1>
 <p>
-  Test duration: 55.528s
+  Test duration: 44.948s
 </p>
 
+  <table class="resultsTable configTable">
+    <tr><th colspan="3" class="header failedConfig">Failed Configuration</th></tr>
+              <tr class="group">
+        <td colspan="3">com.test.automation.uiAutomation.AuthPageValidation.accountCreateionValidation</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  afterMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">[TestResult name=successfullAccountCreationValidation status=FAILURE method=accountCreateionValidation.successfullAccountCreationValidation(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.uiAutomation.AuthPageValidation.accountCreateionValidation@27ae2fd0] output={null}]</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed<br/>
+from unknown error: web view not found<br/>
+&nbsp; (Session info: chrome=67.0.3396.87)<br/>
+&nbsp; (Driver info: chromedriver=2.39.562713 (dd642283e958a93ebf6891600db055f1f1b4f3b2),platform=Mac OS X 10.13.4 x86_64) (WARNING: The server did not provide any stacktrace information)<br/>
+Command duration or timeout: 0 milliseconds<br/>
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;<br/>
+System info: host: &apos;Saurabhs-MacBook-Pro.local&apos;, ip: &apos;fd5f:fd73:3d08:0:d992:157e:c4e5:974c&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.4&apos;, java.version: &apos;1.8.0_65&apos;<br/>
+Driver info: org.openqa.selenium.chrome.ChromeDriver<br/>
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.39.562713 (dd642283e958a9..., userDataDir: /var/folders/4b/k0kz1pqs2b1...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.87, webStorageEnabled: true}<br/>
+Session ID: 9073791836c3579ac71f8209ce895c46</b></a><br />
+    <div class="stackTrace" id="exception-0">
+              sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
+              sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br />
+              java.lang.reflect.Constructor.newInstance(Constructor.java:422)<br />
+              org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)<br />
+              org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)<br />
+              org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)<br />
+              org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)<br />
+              org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)<br />
+              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:289)<br />
+              com.test.automation.uiAutomation.testBase.TestBase.captureScreen(TestBase.java:220)<br />
+              com.test.automation.uiAutomation.testBase.TestBase.getResult(TestBase.java:248)<br />
+              com.test.automation.uiAutomation.testBase.TestBase.afterMethod(TestBase.java:256)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:497)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)<br />
+              org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)<br />
+              org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:707)<br />
+              org.testng.internal.Invoker.retryFailed(Invoker.java:967)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1146)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:782)<br />
+              org.testng.TestRunner.run(TestRunner.java:632)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:366)<br />
+              org.testng.SuiteRunner.access$000(SuiteRunner.java:39)<br />
+              org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)<br />
+              org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)<br />
+              java.util.concurrent.FutureTask.run(FutureTask.java:266)<br />
+              java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)<br />
+              java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)<br />
+              java.lang.Thread.run(Thread.java:745)<br />
+                </div>
+      </td>
+</tr>
+    
+          <tr><td colspan="3">&nbsp;</td></tr>
+      <tr><td colspan="3" class="header skippedConfig">Skipped Configuration</td></tr>
+                    <tr>
+          <td colspan="3" class="group">com.test.automation.uiAutomation.AuthPageValidation.accountCreateionValidation</td>
+        </tr>
+                
+<tr>
+  <td class="method">
+                  afterMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  afterMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  afterMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  afterMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  afterMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  afterMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  afterMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  afterMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  beforeMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  beforeMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  beforeMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  beforeMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  beforeMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  beforeMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  beforeMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  beforeMethod
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+            </table>
 
 
   <table class="resultsTable">
     <tr><th colspan="3" class="header failed">Failed Tests</th></tr>
           <tr>
-        <td colspan="3" class="group">com.test.automation.uiAutomation.AuthPageValidation.SignInValidation</td>
+        <td colspan="3" class="group">com.test.automation.uiAutomation.AuthPageValidation.accountCreateionValidation</td>
       </tr>
             
 <tr>
   <td class="method">
-                  verifyLoginWithValidCredentials
+                  successfullAccountCreationValidation
       </td>
   <td class="duration">
-    9.114s
+    0.007s
   </td>
   <td class="result">
         
-          <i>Method arguments: </i><span class="arguments">"saurabhsharma81285@gmail.com", "Pass123", "Y"</span><br />
+          <i>Method arguments: </i><span class="arguments">"saurabhsharma81285@gmail.com", "Male", "Saurabh", "Sharma", "Shriya1@2015", ""22"", "December", ""1985"", "5630 N Sheridan", "Chicago", ""60661"", "Illinois", "United States", ""1112223334"", "Home", "Y"</span><br />
     
-            <div class="testOutput">
-                        &lt;a href=&apos;/Users/saurabhsharma/Automation_Workspace/UI_Automation/uiAutomation/src/main/java/com/test/automation/uiAutomation/screenshot/LoginWithValidCredentials_saurabhsharma81285@gmail.com_10_06_2018_07_54_09.png&apos;&gt; &lt;img src=&apos;/Users/saurabhsharma/Automation_Workspace/UI_Automation/uiAutomation/src/main/java/com/test/automation/uiAutomation/screenshot/LoginWithValidCredentials_saurabhsharma81285@gmail.com_10_06_2018_07_54_09.png&apos; height=&apos;100&apos; width=&apos;100&apos;/&gt; &lt;/a&gt;<br />
-                  </div>
-    
+        
 
-        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: expected [Authentication passed.] but found [Authentication failed.]</b></a><br />
-    <div class="stackTrace" id="exception-0">
-              org.testng.Assert.fail(Assert.java:94)<br />
-              org.testng.Assert.failNotEquals(Assert.java:513)<br />
-              org.testng.Assert.assertEqualsImpl(Assert.java:135)<br />
-              org.testng.Assert.assertEquals(Assert.java:116)<br />
-              org.testng.Assert.assertEquals(Assert.java:190)<br />
-              org.testng.Assert.assertEquals(Assert.java:200)<br />
-              com.test.automation.uiAutomation.AuthPageValidation.SignInValidation.verifyLoginWithValidCredentials(SignInValidation.java:66)<br />
+        <a href="javascript:toggleElement('exception-16', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed<br/>
+from unknown error: web view not found<br/>
+&nbsp; (Session info: chrome=67.0.3396.87)<br/>
+&nbsp; (Driver info: chromedriver=2.39.562713 (dd642283e958a93ebf6891600db055f1f1b4f3b2),platform=Mac OS X 10.13.4 x86_64) (WARNING: The server did not provide any stacktrace information)<br/>
+Command duration or timeout: 0 milliseconds<br/>
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;<br/>
+System info: host: &apos;Saurabhs-MacBook-Pro.local&apos;, ip: &apos;fd5f:fd73:3d08:0:d992:157e:c4e5:974c&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.4&apos;, java.version: &apos;1.8.0_65&apos;<br/>
+Driver info: org.openqa.selenium.chrome.ChromeDriver<br/>
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.39.562713 (dd642283e958a9..., userDataDir: /var/folders/4b/k0kz1pqs2b1...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.87, webStorageEnabled: true}<br/>
+Session ID: 9073791836c3579ac71f8209ce895c46<br/>
+*** Element info: {Using=xpath, value=//a[@class=&apos;login&apos;]}</b></a><br />
+    <div class="stackTrace" id="exception-16">
+              sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
+              sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br />
+              java.lang.reflect.Constructor.newInstance(Constructor.java:422)<br />
+              org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)<br />
+              org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)<br />
+              org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)<br />
+              org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)<br />
+              org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)<br />
+              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)<br />
+              org.openqa.selenium.By$ByXPath.findElement(By.java:353)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)<br />
+              org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)<br />
+              org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)<br />
+              com.sun.proxy.$Proxy12.click(Unknown Source)<br />
+              com.test.automation.uiAutomation.uiActions.AuthenticationPage.clickOnSignin(AuthenticationPage.java:48)<br />
+              com.test.automation.uiAutomation.uiActions.AuthenticationPage.signUpToApp(AuthenticationPage.java:76)<br />
+              com.test.automation.uiAutomation.AuthPageValidation.accountCreateionValidation.successfullAccountCreationValidation(accountCreateionValidation.java:41)<br />
               sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
               sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
               sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
@@ -76,90 +402,19 @@
   <table class="resultsTable" width="100%">
     <tr><th colspan="3" class="header skipped">Skipped Tests</th></tr>
           <tr>
-        <td colspan="3" class="group">com.test.automation.uiAutomation.AuthPageValidation.SignInValidation</td>
+        <td colspan="3" class="group">com.test.automation.uiAutomation.AuthPageValidation.accountCreateionValidation</td>
       </tr>
             
 <tr>
   <td class="method">
-                  verifyLoginWithInvalidCredentials
+                  successfullAccountCreationValidation
       </td>
   <td class="duration">
     0.001s
-  </td>
-  <td class="result">
-                                 	<i>Reason: </i>
-      	<span class="dependency">User has marked this test as no run.</span>
-          
-          <i>Method arguments: </i><span class="arguments">"sa@gmail.com", "Pass345", "N"</span><br />
-    
-        
-
-      </td>
-</tr>
-<tr>
-  <td class="method">
-                  verifyLoginWithInvalidCredentials
-      </td>
-  <td class="duration">
-    0.001s
-  </td>
-  <td class="result">
-                                 	<i>Reason: </i>
-      	<span class="dependency">User has marked this test as no run.</span>
-          
-          <i>Method arguments: </i><span class="arguments">"Sau97601@gmail.com", "Pass234", "N"</span><br />
-    
-        
-
-      </td>
-</tr>
-<tr>
-  <td class="method">
-                  verifyLoginWithInvalidCredentials
-      </td>
-  <td class="duration">
-    0.001s
-  </td>
-  <td class="result">
-                                 	<i>Reason: </i>
-      	<span class="dependency">User has marked this test as no run.</span>
-          
-          <i>Method arguments: </i><span class="arguments">"test123@gmail.com", "Pass456", "N"</span><br />
-    
-        
-
-      </td>
-</tr>
-<tr>
-  <td class="method">
-                  verifyLoginWithValidCredentials
-      </td>
-  <td class="duration">
-    3.467s
   </td>
   <td class="result">
                                
-          <i>Method arguments: </i><span class="arguments">"saurabhsharma81285@gmail.com", "Pass123", "Y"</span><br />
-    
-            <div class="testOutput">
-                        &lt;a href=&apos;/Users/saurabhsharma/Automation_Workspace/UI_Automation/uiAutomation/src/main/java/com/test/automation/uiAutomation/screenshot/LoginWithValidCredentials_saurabhsharma81285@gmail.com_10_06_2018_07_53_56.png&apos;&gt; &lt;img src=&apos;/Users/saurabhsharma/Automation_Workspace/UI_Automation/uiAutomation/src/main/java/com/test/automation/uiAutomation/screenshot/LoginWithValidCredentials_saurabhsharma81285@gmail.com_10_06_2018_07_53_56.png&apos; height=&apos;100&apos; width=&apos;100&apos;/&gt; &lt;/a&gt;<br />
-                  </div>
-    
-
-      </td>
-</tr>
-<tr>
-  <td class="method">
-                  verifyLoginWithValidCredentials
-      </td>
-  <td class="duration">
-    0.001s
-  </td>
-  <td class="result">
-                                 	<i>Reason: </i>
-      	<span class="dependency">User has marked this test as no run.</span>
-          
-          <i>Method arguments: </i><span class="arguments">"Sau97601@gmail.com", "Pass234", "N"</span><br />
+          <i>Method arguments: </i><span class="arguments">"sa@gmail.com", "Female", "Shriya", "Sharma", "Shriya1@2015", ""28"", "August", ""2015"", "5630 N Sheridan", "Chicago", ""60661"", "Illinois", "United States", ""1112223334"", "Home", "N"</span><br />
     
         
 
@@ -167,16 +422,14 @@
 </tr>
 <tr>
   <td class="method">
-                  verifyLoginWithValidCredentials
+                  successfullAccountCreationValidation
       </td>
   <td class="duration">
     0.001s
   </td>
   <td class="result">
-                                 	<i>Reason: </i>
-      	<span class="dependency">User has marked this test as no run.</span>
-          
-          <i>Method arguments: </i><span class="arguments">"sa@gmail.com", "Pass345", "N"</span><br />
+                               
+          <i>Method arguments: </i><span class="arguments">"Sau97601@gmail.com", "Female", "FNU", "Bharathi", "Shriya1@2015", ""8"", "June", ""1986"", "5630 N Sheridan", "Chicago", ""60661"", "Illinois", "United States", ""1112223334"", "Home", "N"</span><br />
     
         
 
@@ -184,16 +437,44 @@
 </tr>
 <tr>
   <td class="method">
-                  verifyLoginWithValidCredentials
+                  successfullAccountCreationValidation
+      </td>
+  <td class="duration">
+    0.001s
+  </td>
+  <td class="result">
+                               
+          <i>Method arguments: </i><span class="arguments">"test123@gmail.com", "male", "Gaurav", "Sharma", "Shriya1@2015", ""22"", "July", ""1985"", "5630 N Sheridan", "Chicago", ""60661"", "Illinois", "United States", ""1112223334"", "Home", "N"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  successfullAccountCreationValidation
+      </td>
+  <td class="duration">
+    39.806s
+  </td>
+  <td class="result">
+                               
+          <i>Method arguments: </i><span class="arguments">"saurabhsharma81285@gmail.com", "Male", "Saurabh", "Sharma", "Shriya1@2015", ""22"", "December", ""1985"", "5630 N Sheridan", "Chicago", ""60661"", "Illinois", "United States", ""1112223334"", "Home", "Y"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  successfullAccountCreationValidation
       </td>
   <td class="duration">
     0.000s
   </td>
   <td class="result">
-                                 	<i>Reason: </i>
-      	<span class="dependency">User has marked this test as no run.</span>
-          
-          <i>Method arguments: </i><span class="arguments">"test123@gmail.com", "Pass456", "N"</span><br />
+                               
+          <i>Method arguments: </i><span class="arguments">"Sau97601@gmail.com", "Female", "FNU", "Bharathi", "Shriya1@2015", ""8"", "June", ""1986"", "5630 N Sheridan", "Chicago", ""60661"", "Illinois", "United States", ""1112223334"", "Home", "N"</span><br />
     
         
 
@@ -201,51 +482,14 @@
 </tr>
 <tr>
   <td class="method">
-                  verifyLoginWithValidCredentials
+                  successfullAccountCreationValidation
       </td>
   <td class="duration">
     0.001s
-  </td>
-  <td class="result">
-                                 	<i>Reason: </i>
-      	<span class="dependency">User has marked this test as no run.</span>
-          
-          <i>Method arguments: </i><span class="arguments">"test123@gmail.com", "Pass456", "N"</span><br />
-    
-        
-
-      </td>
-</tr>
-<tr>
-  <td class="method">
-                  verifyLoginWithValidCredentials
-      </td>
-  <td class="duration">
-    4.263s
   </td>
   <td class="result">
                                
-          <i>Method arguments: </i><span class="arguments">"saurabhsharma81285@gmail.com", "Pass123", "Y"</span><br />
-    
-            <div class="testOutput">
-                        &lt;a href=&apos;/Users/saurabhsharma/Automation_Workspace/UI_Automation/uiAutomation/src/main/java/com/test/automation/uiAutomation/screenshot/LoginWithValidCredentials_saurabhsharma81285@gmail.com_10_06_2018_07_54_00.png&apos;&gt; &lt;img src=&apos;/Users/saurabhsharma/Automation_Workspace/UI_Automation/uiAutomation/src/main/java/com/test/automation/uiAutomation/screenshot/LoginWithValidCredentials_saurabhsharma81285@gmail.com_10_06_2018_07_54_00.png&apos; height=&apos;100&apos; width=&apos;100&apos;/&gt; &lt;/a&gt;<br />
-                  </div>
-    
-
-      </td>
-</tr>
-<tr>
-  <td class="method">
-                  verifyLoginWithValidCredentials
-      </td>
-  <td class="duration">
-    0.001s
-  </td>
-  <td class="result">
-                                 	<i>Reason: </i>
-      	<span class="dependency">User has marked this test as no run.</span>
-          
-          <i>Method arguments: </i><span class="arguments">"Sau97601@gmail.com", "Pass234", "N"</span><br />
+          <i>Method arguments: </i><span class="arguments">"test124@gmail.com", "male", "Vabhav", "Sharma", "Shriya1@2015", ""6"", "March", ""1985"", "5630 N Sheridan", "Chicago", ""60661"", "Illinois", "United States", ""1112223334"", "Home", "N"</span><br />
     
         
 
@@ -253,37 +497,14 @@
 </tr>
 <tr>
   <td class="method">
-                  verifyLoginWithValidCredentials
-      </td>
-  <td class="duration">
-    0.000s
-  </td>
-  <td class="result">
-                                 	<i>Reason: </i>
-      	<span class="dependency">User has marked this test as no run.</span>
-          
-          <i>Method arguments: </i><span class="arguments">"sa@gmail.com", "Pass345", "N"</span><br />
-    
-        
-
-      </td>
-</tr>
-          <tr>
-        <td colspan="3" class="group">com.test.automation.uiAutomation.AuthPageValidation.SignUpValidation</td>
-      </tr>
-            
-<tr>
-  <td class="method">
-                  verifyLandingOnNewAccountCreationInfoPage
+                  successfullAccountCreationValidation
       </td>
   <td class="duration">
     0.001s
   </td>
   <td class="result">
-                                 	<i>Reason: </i>
-      	<span class="dependency">User has marked this test as no run.</span>
-          
-          <i>Method arguments: </i><span class="arguments">"sa@gmail.com", "Pass345", "N"</span><br />
+                               
+          <i>Method arguments: </i><span class="arguments">"sa@gmail.com", "Female", "Shriya", "Sharma", "Shriya1@2015", ""28"", "August", ""2015"", "5630 N Sheridan", "Chicago", ""60661"", "Illinois", "United States", ""1112223334"", "Home", "N"</span><br />
     
         
 
@@ -291,16 +512,14 @@
 </tr>
 <tr>
   <td class="method">
-                  verifyLandingOnNewAccountCreationInfoPage
+                  successfullAccountCreationValidation
       </td>
   <td class="duration">
-    0.001s
+    0.002s
   </td>
   <td class="result">
-                                 	<i>Reason: </i>
-      	<span class="dependency">User has marked this test as no run.</span>
-          
-          <i>Method arguments: </i><span class="arguments">"Sau97601@gmail.com", "Pass234", "N"</span><br />
+                               
+          <i>Method arguments: </i><span class="arguments">"test123@gmail.com", "male", "Gaurav", "Sharma", "Shriya1@2015", ""22"", "July", ""1985"", "5630 N Sheridan", "Chicago", ""60661"", "Illinois", "United States", ""1112223334"", "Home", "N"</span><br />
     
         
 
@@ -308,16 +527,29 @@
 </tr>
 <tr>
   <td class="method">
-                  verifyLandingOnNewAccountCreationInfoPage
+                  successfullAccountCreationValidation
       </td>
   <td class="duration">
     0.001s
   </td>
   <td class="result">
-                                 	<i>Reason: </i>
-      	<span class="dependency">User has marked this test as no run.</span>
-          
-          <i>Method arguments: </i><span class="arguments">"test123@gmail.com", "Pass456", "N"</span><br />
+                               
+          <i>Method arguments: </i><span class="arguments">"test124@gmail.com", "male", "Vabhav", "Sharma", "Shriya1@2015", ""6"", "March", ""1985"", "5630 N Sheridan", "Chicago", ""60661"", "Illinois", "United States", ""1112223334"", "Home", "N"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  successfullAccountCreationValidation
+      </td>
+  <td class="duration">
+    0.030s
+  </td>
+  <td class="result">
+                               
+          <i>Method arguments: </i><span class="arguments">"saurabhsharma81285@gmail.com", "Male", "Saurabh", "Sharma", "Shriya1@2015", ""22"", "December", ""1985"", "5630 N Sheridan", "Chicago", ""60661"", "Illinois", "United States", ""1112223334"", "Home", "Y"</span><br />
     
         
 
@@ -325,125 +557,6 @@
 </tr>
       </table>
 
-  <table class="resultsTable">
-    <tr><th colspan="3" class="header passed">Passed Tests</th></tr>
-          <tr>
-        <td colspan="3" class="group">com.test.automation.uiAutomation.AuthPageValidation.SignInValidation</td>
-      </tr>
-            
-<tr>
-  <td class="method">
-                  verifyLoginWithInvalidCredentials
-      </td>
-  <td class="duration">
-    6.771s
-  </td>
-  <td class="result">
-        
-          <i>Method arguments: </i><span class="arguments">"saurabhsharma81285@gmail.com", "Pass123", "Y"</span><br />
-    
-            <div class="testOutput">
-                        &lt;a href=&apos;/Users/saurabhsharma/Automation_Workspace/UI_Automation/uiAutomation/src/main/java/com/test/automation/uiAutomation/screenshot/LoginWithValidCredentials_saurabhsharma81285@gmail.com_10_06_2018_07_53_52.png&apos;&gt; &lt;img src=&apos;/Users/saurabhsharma/Automation_Workspace/UI_Automation/uiAutomation/src/main/java/com/test/automation/uiAutomation/screenshot/LoginWithValidCredentials_saurabhsharma81285@gmail.com_10_06_2018_07_53_52.png&apos; height=&apos;100&apos; width=&apos;100&apos;/&gt; &lt;/a&gt;<br />
-                  </div>
-    
-
-      </td>
-</tr>
-<tr>
-  <td class="method">
-                  verifySuccessfulLandingOnAuthenticationPage
-      </td>
-  <td class="duration">
-    4.773s
-  </td>
-  <td class="result">
-        
-          <i>Method arguments: </i><span class="arguments">"saurabhsharma81285@gmail.com", "Pass123", "Y"</span><br />
-    
-            <div class="testOutput">
-                        &lt;a href=&apos;/Users/saurabhsharma/Automation_Workspace/UI_Automation/uiAutomation/src/main/java/com/test/automation/uiAutomation/screenshot/LoginWithValidCredentials_saurabhsharma81285@gmail.com_10_06_2018_07_54_10.png&apos;&gt; &lt;img src=&apos;/Users/saurabhsharma/Automation_Workspace/UI_Automation/uiAutomation/src/main/java/com/test/automation/uiAutomation/screenshot/LoginWithValidCredentials_saurabhsharma81285@gmail.com_10_06_2018_07_54_10.png&apos; height=&apos;100&apos; width=&apos;100&apos;/&gt; &lt;/a&gt;<br />
-                  </div>
-    
-
-      </td>
-</tr>
-<tr>
-  <td class="method">
-                  verifySuccessfulLandingOnAuthenticationPage
-      </td>
-  <td class="duration">
-    2.314s
-  </td>
-  <td class="result">
-        
-          <i>Method arguments: </i><span class="arguments">"sa@gmail.com", "Pass345", "N"</span><br />
-    
-            <div class="testOutput">
-                        &lt;a href=&apos;/Users/saurabhsharma/Automation_Workspace/UI_Automation/uiAutomation/src/main/java/com/test/automation/uiAutomation/screenshot/LoginWithValidCredentials_sa@gmail.com_10_06_2018_07_54_18.png&apos;&gt; &lt;img src=&apos;/Users/saurabhsharma/Automation_Workspace/UI_Automation/uiAutomation/src/main/java/com/test/automation/uiAutomation/screenshot/LoginWithValidCredentials_sa@gmail.com_10_06_2018_07_54_18.png&apos; height=&apos;100&apos; width=&apos;100&apos;/&gt; &lt;/a&gt;<br />
-                  </div>
-    
-
-      </td>
-</tr>
-<tr>
-  <td class="method">
-                  verifySuccessfulLandingOnAuthenticationPage
-      </td>
-  <td class="duration">
-    2.486s
-  </td>
-  <td class="result">
-        
-          <i>Method arguments: </i><span class="arguments">"test123@gmail.com", "Pass456", "N"</span><br />
-    
-            <div class="testOutput">
-                        &lt;a href=&apos;/Users/saurabhsharma/Automation_Workspace/UI_Automation/uiAutomation/src/main/java/com/test/automation/uiAutomation/screenshot/LoginWithValidCredentials_test123@gmail.com_10_06_2018_07_54_20.png&apos;&gt; &lt;img src=&apos;/Users/saurabhsharma/Automation_Workspace/UI_Automation/uiAutomation/src/main/java/com/test/automation/uiAutomation/screenshot/LoginWithValidCredentials_test123@gmail.com_10_06_2018_07_54_20.png&apos; height=&apos;100&apos; width=&apos;100&apos;/&gt; &lt;/a&gt;<br />
-                  </div>
-    
-
-      </td>
-</tr>
-<tr>
-  <td class="method">
-                  verifySuccessfulLandingOnAuthenticationPage
-      </td>
-  <td class="duration">
-    3.067s
-  </td>
-  <td class="result">
-        
-          <i>Method arguments: </i><span class="arguments">"Sau97601@gmail.com", "Pass234", "N"</span><br />
-    
-            <div class="testOutput">
-                        &lt;a href=&apos;/Users/saurabhsharma/Automation_Workspace/UI_Automation/uiAutomation/src/main/java/com/test/automation/uiAutomation/screenshot/LoginWithValidCredentials_Sau97601@gmail.com_10_06_2018_07_54_15.png&apos;&gt; &lt;img src=&apos;/Users/saurabhsharma/Automation_Workspace/UI_Automation/uiAutomation/src/main/java/com/test/automation/uiAutomation/screenshot/LoginWithValidCredentials_Sau97601@gmail.com_10_06_2018_07_54_15.png&apos; height=&apos;100&apos; width=&apos;100&apos;/&gt; &lt;/a&gt;<br />
-                  </div>
-    
-
-      </td>
-</tr>
-          <tr>
-        <td colspan="3" class="group">com.test.automation.uiAutomation.AuthPageValidation.SignUpValidation</td>
-      </tr>
-            
-<tr>
-  <td class="method">
-                  verifyLandingOnNewAccountCreationInfoPage
-      </td>
-  <td class="duration">
-    8.376s
-  </td>
-  <td class="result">
-        
-          <i>Method arguments: </i><span class="arguments">"saurabhsharma81285@gmail.com", "Pass123", "Y"</span><br />
-    
-            <div class="testOutput">
-                        &lt;a href=&apos;/Users/saurabhsharma/Automation_Workspace/UI_Automation/uiAutomation/src/main/java/com/test/automation/uiAutomation/screenshot/LoginWithValidCredentials_saurabhsharma81285@gmail.com_10_06_2018_07_54_31.png&apos;&gt; &lt;img src=&apos;/Users/saurabhsharma/Automation_Workspace/UI_Automation/uiAutomation/src/main/java/com/test/automation/uiAutomation/screenshot/LoginWithValidCredentials_saurabhsharma81285@gmail.com_10_06_2018_07_54_31.png&apos; height=&apos;100&apos; width=&apos;100&apos;/&gt; &lt;/a&gt;<br />
-                  </div>
-    
-
-      </td>
-</tr>
-      </table>
   
 </body>
 </html>

@@ -2628,3 +2628,576 @@
 2018-06-10 19:56:24 INFO  SignUpValidation:40 - Successfully landed on account information Page.
 2018-06-10 19:56:24 INFO  SignUpValidation:41 - =================End AccountCreation Page Test======================
 2018-06-10 19:56:24 INFO  TestBase:272 - browser closed
+2018-06-12 21:34:52 INFO  TestBase:142 - Navigating to :-http://automationpractice.com/index.php
+2018-06-12 21:34:54 INFO  SignInValidation:46 - =================Start Login With Invalid Credentials Test====================
+2018-06-12 21:34:55 INFO  AuthenticationPage:49 - Successfully landed to :Authentication
+2018-06-12 21:34:56 INFO  AuthenticationPage:51 - Enetered email is: saurabhsharma81285@gmail.com and object is: [[ChromeDriver: chrome on MAC (83f6476096904b010205bc5e506f99fd)] -> xpath: //input[@id='email']]
+2018-06-12 21:34:56 INFO  AuthenticationPage:53 - Enetered password is: Pass123 and object is: [[ChromeDriver: chrome on MAC (83f6476096904b010205bc5e506f99fd)] -> xpath: //input[@id='passwd']]
+2018-06-12 21:34:56 INFO  AuthenticationPage:55 - Clicked on Submit button and the object is : [[ChromeDriver: chrome on MAC (83f6476096904b010205bc5e506f99fd)] -> xpath: //button[@id='SubmitLogin']//span]
+2018-06-12 21:34:57 INFO  AuthenticationPage:59 - Error message is :[[ChromeDriver: chrome on MAC (83f6476096904b010205bc5e506f99fd)] -> xpath: //li[contains(text(),'Authentication failed.')]]
+2018-06-12 21:34:57 INFO  SignInValidation:52 - Test case successfully validated.
+2018-06-12 21:34:57 INFO  SignInValidation:53 - =================End Login With Invalid Credentials Test======================
+2018-06-12 21:34:57 INFO  SignInValidation:62 - =================Start Login With valid Credentials Test====================
+2018-06-12 21:34:57 INFO  AuthenticationPage:49 - Successfully landed to :Authentication
+2018-06-12 21:34:58 INFO  AuthenticationPage:51 - Enetered email is: saurabhsharma81285@gmail.com and object is: [[ChromeDriver: chrome on MAC (83f6476096904b010205bc5e506f99fd)] -> xpath: //input[@id='email']]
+2018-06-12 21:34:58 INFO  AuthenticationPage:53 - Enetered password is: Pass123 and object is: [[ChromeDriver: chrome on MAC (83f6476096904b010205bc5e506f99fd)] -> xpath: //input[@id='passwd']]
+2018-06-12 21:34:58 INFO  AuthenticationPage:55 - Clicked on Submit button and the object is : [[ChromeDriver: chrome on MAC (83f6476096904b010205bc5e506f99fd)] -> xpath: //button[@id='SubmitLogin']//span]
+2018-06-12 21:34:58 INFO  AuthenticationPage:59 - Error message is :[[ChromeDriver: chrome on MAC (83f6476096904b010205bc5e506f99fd)] -> xpath: //li[contains(text(),'Authentication failed.')]]
+2018-06-12 21:34:59 INFO  SignInValidation:62 - =================Start Login With valid Credentials Test====================
+2018-06-12 21:34:59 INFO  AuthenticationPage:49 - Successfully landed to :Authentication
+2018-06-12 21:34:59 INFO  AuthenticationPage:51 - Enetered email is: saurabhsharma81285@gmail.com and object is: [[ChromeDriver: chrome on MAC (83f6476096904b010205bc5e506f99fd)] -> xpath: //input[@id='email']]
+2018-06-12 21:35:00 INFO  AuthenticationPage:53 - Enetered password is: Pass123 and object is: [[ChromeDriver: chrome on MAC (83f6476096904b010205bc5e506f99fd)] -> xpath: //input[@id='passwd']]
+2018-06-12 21:35:00 INFO  AuthenticationPage:55 - Clicked on Submit button and the object is : [[ChromeDriver: chrome on MAC (83f6476096904b010205bc5e506f99fd)] -> xpath: //button[@id='SubmitLogin']//span]
+2018-06-12 21:35:00 INFO  AuthenticationPage:59 - Error message is :[[ChromeDriver: chrome on MAC (83f6476096904b010205bc5e506f99fd)] -> xpath: //li[contains(text(),'Authentication failed.')]]
+2018-06-12 21:35:00 INFO  SignInValidation:62 - =================Start Login With valid Credentials Test====================
+2018-06-12 21:35:02 INFO  AuthenticationPage:49 - Successfully landed to :Authentication
+2018-06-12 21:35:02 INFO  AuthenticationPage:51 - Enetered email is: saurabhsharma81285@gmail.com and object is: [[ChromeDriver: chrome on MAC (83f6476096904b010205bc5e506f99fd)] -> xpath: //input[@id='email']]
+2018-06-12 21:35:02 INFO  AuthenticationPage:53 - Enetered password is: Pass123 and object is: [[ChromeDriver: chrome on MAC (83f6476096904b010205bc5e506f99fd)] -> xpath: //input[@id='passwd']]
+2018-06-12 21:35:02 INFO  AuthenticationPage:55 - Clicked on Submit button and the object is : [[ChromeDriver: chrome on MAC (83f6476096904b010205bc5e506f99fd)] -> xpath: //button[@id='SubmitLogin']//span]
+2018-06-12 21:35:03 INFO  AuthenticationPage:59 - Error message is :[[ChromeDriver: chrome on MAC (83f6476096904b010205bc5e506f99fd)] -> xpath: //li[contains(text(),'Authentication failed.')]]
+2018-06-12 21:35:03 INFO  SignInValidation:32 - =================Start Authentication Page Test====================
+2018-06-12 21:35:04 INFO  AuthenticationPage:65 - Successfully landed to :Authentication
+2018-06-12 21:35:04 INFO  SignInValidation:37 - Test case successfully validated.
+2018-06-12 21:35:04 INFO  SignInValidation:38 - =================End Authentication Page Test=======================
+2018-06-12 21:35:04 INFO  SignInValidation:32 - =================Start Authentication Page Test====================
+2018-06-12 21:35:06 INFO  AuthenticationPage:65 - Successfully landed to :Authentication
+2018-06-12 21:35:06 INFO  SignInValidation:37 - Test case successfully validated.
+2018-06-12 21:35:06 INFO  SignInValidation:38 - =================End Authentication Page Test=======================
+2018-06-12 21:35:06 INFO  SignInValidation:32 - =================Start Authentication Page Test====================
+2018-06-12 21:35:07 INFO  AuthenticationPage:65 - Successfully landed to :Authentication
+2018-06-12 21:35:07 INFO  SignInValidation:37 - Test case successfully validated.
+2018-06-12 21:35:07 INFO  SignInValidation:38 - =================End Authentication Page Test=======================
+2018-06-12 21:35:07 INFO  SignInValidation:32 - =================Start Authentication Page Test====================
+2018-06-12 21:35:08 INFO  AuthenticationPage:65 - Successfully landed to :Authentication
+2018-06-12 21:35:08 INFO  SignInValidation:37 - Test case successfully validated.
+2018-06-12 21:35:08 INFO  SignInValidation:38 - =================End Authentication Page Test=======================
+2018-06-12 21:35:08 INFO  TestBase:272 - browser closed
+2018-06-12 21:35:09 INFO  TestBase:142 - Navigating to :-http://automationpractice.com/index.php
+2018-06-12 21:35:11 INFO  SignUpValidation:34 - =================Start AccountCreation Page Test====================
+2018-06-12 21:35:11 INFO  AuthenticationPage:71 - Successfully landed to :Authentication
+2018-06-12 21:35:13 INFO  SignUpValidation:40 - Successfully landed on account information Page.
+2018-06-12 21:35:13 INFO  SignUpValidation:41 - =================End AccountCreation Page Test======================
+2018-06-12 21:35:13 INFO  TestBase:272 - browser closed
+2018-06-23 16:52:03 INFO  TestBase:142 - Navigating to :-http://automationpractice.com/index.php
+2018-06-23 16:52:06 INFO  accountCreateionValidation:37 - =================Start AccountCreation Test====================
+2018-06-23 16:53:07 INFO  accountCreateionValidation:37 - =================Start AccountCreation Test====================
+2018-06-23 16:54:08 INFO  TestBase:272 - browser closed
+2018-06-23 17:02:26 INFO  TestBase:114 - Creating the object of chrome
+2018-06-23 17:02:29 INFO  TestBase:142 - Navigating to :-http://automationpractice.com/index.php
+2018-06-23 17:02:32 INFO  accountCreateionValidation:37 - =================Start AccountCreation Test====================
+2018-06-23 17:02:53 INFO  accountCreateionValidation:37 - =================Start AccountCreation Test====================
+2018-06-23 17:02:53 INFO  accountCreateionValidation:37 - =================Start AccountCreation Test====================
+2018-06-23 17:02:53 INFO  TestBase:272 - browser closed
+2018-06-23 17:06:26 INFO  TestBase:114 - Creating the object of chrome
+2018-06-23 17:06:28 INFO  TestBase:142 - Navigating to :-http://automationpractice.com/index.php
+2018-06-23 17:06:31 INFO  SignUpValidation:34 - =================Start AccountCreation Page Test====================
+2018-06-23 17:06:32 INFO  AuthenticationPage:71 - Successfully landed to :Authentication
+2018-06-23 17:06:34 INFO  SignUpValidation:40 - Successfully landed on account information Page.
+2018-06-23 17:06:34 INFO  SignUpValidation:41 - =================End AccountCreation Page Test======================
+2018-06-23 17:06:34 INFO  TestBase:272 - browser closed
+2018-06-23 17:06:34 INFO  TestBase:114 - Creating the object of chrome
+2018-06-23 17:06:35 INFO  TestBase:142 - Navigating to :-http://automationpractice.com/index.php
+2018-06-23 17:06:38 INFO  accountCreateionValidation:37 - =================Start AccountCreation Test====================
+2018-06-23 17:07:03 INFO  CreateAnAccountPage:97 - Male Gender is selected succesfully.
+2018-06-23 17:07:03 INFO  CreateAnAccountPage:103 - First name entered.
+2018-06-23 17:07:03 INFO  CreateAnAccountPage:105 - Last name entered.
+2018-06-23 17:07:04 INFO  CreateAnAccountPage:107 - Password entered.
+2018-06-23 17:08:04 INFO  accountCreateionValidation:37 - =================Start AccountCreation Test====================
+2018-06-23 17:08:04 INFO  CreateAnAccountPage:97 - Male Gender is selected succesfully.
+2018-06-23 17:08:04 INFO  CreateAnAccountPage:103 - First name entered.
+2018-06-23 17:08:04 INFO  CreateAnAccountPage:105 - Last name entered.
+2018-06-23 17:08:04 INFO  CreateAnAccountPage:107 - Password entered.
+2018-06-23 17:09:04 INFO  accountCreateionValidation:37 - =================Start AccountCreation Test====================
+2018-06-23 17:09:04 INFO  CreateAnAccountPage:97 - Male Gender is selected succesfully.
+2018-06-23 17:09:04 INFO  CreateAnAccountPage:103 - First name entered.
+2018-06-23 17:09:04 INFO  CreateAnAccountPage:105 - Last name entered.
+2018-06-23 17:09:05 INFO  CreateAnAccountPage:107 - Password entered.
+2018-06-23 17:10:05 INFO  TestBase:272 - browser closed
+2018-06-24 10:33:21 INFO  TestBase:114 - Creating the object of chrome
+2018-06-24 10:33:23 INFO  TestBase:142 - Navigating to :-http://automationpractice.com/index.php
+2018-06-24 10:33:27 INFO  accountCreateionValidation:39 - =================Start AccountCreation Test====================
+2018-06-24 10:33:29 INFO  accountCreateionValidation:39 - =================Start AccountCreation Test====================
+2018-06-24 10:33:30 INFO  accountCreateionValidation:39 - =================Start AccountCreation Test====================
+2018-06-24 10:33:32 INFO  TestBase:272 - browser closed
+2018-06-24 10:38:40 INFO  TestBase:114 - Creating the object of chrome
+2018-06-24 10:38:41 INFO  TestBase:142 - Navigating to :-http://automationpractice.com/index.php
+2018-06-24 10:38:44 INFO  accountCreateionValidation:39 - =================Start AccountCreation Test====================
+2018-06-24 10:39:44 INFO  accountCreateionValidation:39 - =================Start AccountCreation Test====================
+2018-06-24 10:40:44 INFO  accountCreateionValidation:39 - =================Start AccountCreation Test====================
+2018-06-24 10:41:39 INFO  AuthenticationPage:73 - Successfully landed to :Authentication
+2018-06-24 10:41:40 INFO  CreateAnAccountPage:97 - Male Gender is selected succesfully.
+2018-06-24 10:41:40 INFO  CreateAnAccountPage:105 - First name entered.
+2018-06-24 10:41:41 INFO  CreateAnAccountPage:109 - Last name entered.
+2018-06-24 10:41:41 INFO  CreateAnAccountPage:113 - Password entered.
+2018-06-24 10:42:41 INFO  TestBase:272 - browser closed
+2018-06-24 10:49:04 INFO  TestBase:114 - Creating the object of chrome
+2018-06-24 10:49:05 INFO  TestBase:142 - Navigating to :-http://automationpractice.com/index.php
+2018-06-24 10:49:08 INFO  accountCreateionValidation:39 - =================Start AccountCreation Test====================
+2018-06-24 10:49:09 INFO  AuthenticationPage:49 - Successfully landed to :Authentication
+2018-06-24 10:49:11 INFO  CreateAnAccountPage:97 - Male Gender is selected succesfully.
+2018-06-24 10:49:11 INFO  CreateAnAccountPage:105 - First name entered.
+2018-06-24 10:49:11 INFO  CreateAnAccountPage:109 - Last name entered.
+2018-06-24 10:49:11 INFO  CreateAnAccountPage:113 - Password entered.
+2018-06-24 10:50:11 INFO  accountCreateionValidation:39 - =================Start AccountCreation Test====================
+2018-06-24 10:50:12 INFO  AuthenticationPage:49 - Successfully landed to :Authentication
+2018-06-24 10:50:14 INFO  CreateAnAccountPage:97 - Male Gender is selected succesfully.
+2018-06-24 10:50:14 INFO  CreateAnAccountPage:105 - First name entered.
+2018-06-24 10:50:14 INFO  CreateAnAccountPage:109 - Last name entered.
+2018-06-24 10:50:14 INFO  CreateAnAccountPage:113 - Password entered.
+2018-06-24 10:51:15 INFO  accountCreateionValidation:39 - =================Start AccountCreation Test====================
+2018-06-24 10:51:15 INFO  AuthenticationPage:49 - Successfully landed to :Authentication
+2018-06-24 10:51:17 INFO  CreateAnAccountPage:97 - Male Gender is selected succesfully.
+2018-06-24 10:51:17 INFO  CreateAnAccountPage:105 - First name entered.
+2018-06-24 10:51:17 INFO  CreateAnAccountPage:109 - Last name entered.
+2018-06-24 10:51:17 INFO  CreateAnAccountPage:113 - Password entered.
+2018-06-24 10:52:18 INFO  TestBase:272 - browser closed
+2018-06-24 11:01:36 INFO  TestBase:114 - Creating the object of chrome
+2018-06-24 11:01:38 INFO  TestBase:142 - Navigating to :-http://automationpractice.com/index.php
+2018-06-24 11:01:41 INFO  accountCreateionValidation:39 - =================Start AccountCreation Test====================
+2018-06-24 11:01:42 INFO  AuthenticationPage:49 - Successfully landed to :Authentication
+2018-06-24 11:01:44 INFO  CreateAnAccountPage:97 - Male Gender is selected succesfully.
+2018-06-24 11:01:44 INFO  CreateAnAccountPage:105 - First name entered.
+2018-06-24 11:01:44 INFO  CreateAnAccountPage:109 - Last name entered.
+2018-06-24 11:01:45 INFO  CreateAnAccountPage:113 - Password entered.
+2018-06-24 11:02:45 INFO  accountCreateionValidation:39 - =================Start AccountCreation Test====================
+2018-06-24 11:02:46 INFO  AuthenticationPage:49 - Successfully landed to :Authentication
+2018-06-24 11:02:47 INFO  CreateAnAccountPage:97 - Male Gender is selected succesfully.
+2018-06-24 11:02:47 INFO  CreateAnAccountPage:105 - First name entered.
+2018-06-24 11:02:48 INFO  CreateAnAccountPage:109 - Last name entered.
+2018-06-24 11:02:48 INFO  CreateAnAccountPage:113 - Password entered.
+2018-06-24 11:03:48 INFO  accountCreateionValidation:39 - =================Start AccountCreation Test====================
+2018-06-24 11:03:49 INFO  AuthenticationPage:49 - Successfully landed to :Authentication
+2018-06-24 11:03:50 INFO  CreateAnAccountPage:97 - Male Gender is selected succesfully.
+2018-06-24 11:03:51 INFO  CreateAnAccountPage:105 - First name entered.
+2018-06-24 11:03:51 INFO  CreateAnAccountPage:109 - Last name entered.
+2018-06-24 11:03:51 INFO  CreateAnAccountPage:113 - Password entered.
+2018-06-24 11:08:12 INFO  TestBase:272 - browser closed
+2018-06-24 11:16:56 INFO  TestBase:114 - Creating the object of chrome
+2018-06-24 11:16:58 INFO  TestBase:142 - Navigating to :-http://automationpractice.com/index.php
+2018-06-24 11:17:13 INFO  TestBase:272 - browser closed
+2018-06-24 11:19:11 INFO  TestBase:114 - Creating the object of chrome
+2018-06-24 11:19:12 INFO  TestBase:142 - Navigating to :-http://automationpractice.com/index.php
+2018-06-24 11:19:16 INFO  accountCreateionValidation:39 - =================Start AccountCreation Test====================
+2018-06-24 11:19:17 INFO  AuthenticationPage:49 - Successfully landed to :Authentication
+2018-06-24 11:19:18 INFO  CreateAnAccountPage:97 - Male Gender is selected succesfully.
+2018-06-24 11:19:19 INFO  CreateAnAccountPage:105 - First name entered.
+2018-06-24 11:19:19 INFO  CreateAnAccountPage:109 - Last name entered.
+2018-06-24 11:19:19 INFO  CreateAnAccountPage:113 - Password entered.
+2018-06-24 11:19:19 INFO  accountCreateionValidation:39 - =================Start AccountCreation Test====================
+2018-06-24 11:19:20 INFO  AuthenticationPage:49 - Successfully landed to :Authentication
+2018-06-24 11:19:22 INFO  CreateAnAccountPage:97 - Male Gender is selected succesfully.
+2018-06-24 11:19:22 INFO  CreateAnAccountPage:105 - First name entered.
+2018-06-24 11:19:22 INFO  CreateAnAccountPage:109 - Last name entered.
+2018-06-24 11:19:22 INFO  CreateAnAccountPage:113 - Password entered.
+2018-06-24 11:19:22 INFO  accountCreateionValidation:39 - =================Start AccountCreation Test====================
+2018-06-24 11:19:23 INFO  AuthenticationPage:49 - Successfully landed to :Authentication
+2018-06-24 11:19:25 INFO  CreateAnAccountPage:97 - Male Gender is selected succesfully.
+2018-06-24 11:19:25 INFO  CreateAnAccountPage:105 - First name entered.
+2018-06-24 11:19:25 INFO  CreateAnAccountPage:109 - Last name entered.
+2018-06-24 11:19:25 INFO  CreateAnAccountPage:113 - Password entered.
+2018-06-24 11:19:26 INFO  TestBase:272 - browser closed
+2018-06-24 11:21:22 INFO  TestBase:114 - Creating the object of chrome
+2018-06-24 11:21:23 INFO  TestBase:142 - Navigating to :-http://automationpractice.com/index.php
+2018-06-24 11:21:27 INFO  accountCreateionValidation:39 - =================Start AccountCreation Test====================
+2018-06-24 11:21:28 INFO  AuthenticationPage:49 - Successfully landed to :Authentication
+2018-06-24 11:21:29 INFO  CreateAnAccountPage:97 - Male Gender is selected succesfully.
+2018-06-24 11:21:30 INFO  CreateAnAccountPage:105 - First name entered.
+2018-06-24 11:21:30 INFO  CreateAnAccountPage:109 - Last name entered.
+2018-06-24 11:21:30 INFO  CreateAnAccountPage:113 - Password entered.
+2018-06-24 11:22:30 INFO  accountCreateionValidation:39 - =================Start AccountCreation Test====================
+2018-06-24 11:22:31 INFO  AuthenticationPage:49 - Successfully landed to :Authentication
+2018-06-24 11:22:32 INFO  CreateAnAccountPage:97 - Male Gender is selected succesfully.
+2018-06-24 11:22:33 INFO  CreateAnAccountPage:105 - First name entered.
+2018-06-24 11:22:33 INFO  CreateAnAccountPage:109 - Last name entered.
+2018-06-24 11:22:33 INFO  CreateAnAccountPage:113 - Password entered.
+2018-06-24 11:23:33 INFO  accountCreateionValidation:39 - =================Start AccountCreation Test====================
+2018-06-24 11:23:34 INFO  AuthenticationPage:49 - Successfully landed to :Authentication
+2018-06-24 11:23:36 INFO  CreateAnAccountPage:97 - Male Gender is selected succesfully.
+2018-06-24 11:23:36 INFO  CreateAnAccountPage:105 - First name entered.
+2018-06-24 11:23:36 INFO  CreateAnAccountPage:109 - Last name entered.
+2018-06-24 11:23:36 INFO  CreateAnAccountPage:113 - Password entered.
+2018-06-24 11:24:37 INFO  TestBase:272 - browser closed
+2018-06-24 11:31:47 INFO  TestBase:114 - Creating the object of chrome
+2018-06-24 11:31:49 INFO  TestBase:142 - Navigating to :-http://automationpractice.com/index.php
+2018-06-24 11:31:53 INFO  accountCreateionValidation:39 - =================Start AccountCreation Test====================
+2018-06-24 11:31:54 INFO  AuthenticationPage:49 - Successfully landed to :Authentication
+2018-06-24 11:31:55 INFO  CreateAnAccountPage:97 - Male Gender is selected succesfully.
+2018-06-24 11:31:55 INFO  CreateAnAccountPage:105 - First name entered.
+2018-06-24 11:31:56 INFO  CreateAnAccountPage:109 - Last name entered.
+2018-06-24 11:31:56 INFO  CreateAnAccountPage:113 - Password entered.
+2018-06-24 11:32:56 INFO  accountCreateionValidation:39 - =================Start AccountCreation Test====================
+2018-06-24 11:32:57 INFO  AuthenticationPage:49 - Successfully landed to :Authentication
+2018-06-24 11:32:58 INFO  CreateAnAccountPage:97 - Male Gender is selected succesfully.
+2018-06-24 11:32:58 INFO  CreateAnAccountPage:105 - First name entered.
+2018-06-24 11:32:58 INFO  CreateAnAccountPage:109 - Last name entered.
+2018-06-24 11:32:59 INFO  CreateAnAccountPage:113 - Password entered.
+2018-06-24 11:33:59 INFO  accountCreateionValidation:39 - =================Start AccountCreation Test====================
+2018-06-24 11:34:00 INFO  AuthenticationPage:49 - Successfully landed to :Authentication
+2018-06-24 11:34:01 INFO  CreateAnAccountPage:97 - Male Gender is selected succesfully.
+2018-06-24 11:34:02 INFO  CreateAnAccountPage:105 - First name entered.
+2018-06-24 11:34:02 INFO  CreateAnAccountPage:109 - Last name entered.
+2018-06-24 11:34:02 INFO  CreateAnAccountPage:113 - Password entered.
+2018-06-24 11:35:03 INFO  TestBase:272 - browser closed
+2018-06-24 11:40:30 INFO  TestBase:114 - Creating the object of chrome
+2018-06-24 11:40:32 INFO  TestBase:142 - Navigating to :-http://automationpractice.com/index.php
+2018-06-24 11:40:35 INFO  accountCreateionValidation:39 - =================Start AccountCreation Test====================
+2018-06-24 11:40:36 INFO  AuthenticationPage:49 - Successfully landed to :Authentication
+2018-06-24 11:40:39 INFO  CreateAnAccountPage:97 - Male Gender is selected succesfully.
+2018-06-24 11:40:39 INFO  CreateAnAccountPage:105 - First name entered.
+2018-06-24 11:40:39 INFO  CreateAnAccountPage:109 - Last name entered.
+2018-06-24 11:40:39 INFO  CreateAnAccountPage:113 - Password entered.
+2018-06-24 11:41:39 INFO  accountCreateionValidation:39 - =================Start AccountCreation Test====================
+2018-06-24 11:41:47 INFO  AuthenticationPage:49 - Successfully landed to :Authentication
+2018-06-24 11:41:59 INFO  CreateAnAccountPage:97 - Male Gender is selected succesfully.
+2018-06-24 11:41:59 INFO  CreateAnAccountPage:105 - First name entered.
+2018-06-24 11:42:00 INFO  CreateAnAccountPage:109 - Last name entered.
+2018-06-24 11:42:00 INFO  CreateAnAccountPage:113 - Password entered.
+2018-06-24 11:43:00 INFO  accountCreateionValidation:39 - =================Start AccountCreation Test====================
+2018-06-24 11:43:01 INFO  AuthenticationPage:49 - Successfully landed to :Authentication
+2018-06-24 11:43:02 INFO  CreateAnAccountPage:97 - Male Gender is selected succesfully.
+2018-06-24 11:43:03 INFO  CreateAnAccountPage:105 - First name entered.
+2018-06-24 11:43:03 INFO  CreateAnAccountPage:109 - Last name entered.
+2018-06-24 11:43:03 INFO  CreateAnAccountPage:113 - Password entered.
+2018-06-24 11:44:04 INFO  TestBase:272 - browser closed
+2018-06-24 11:52:34 INFO  TestBase:114 - Creating the object of chrome
+2018-06-24 11:52:35 INFO  TestBase:142 - Navigating to :-http://automationpractice.com/index.php
+2018-06-24 11:52:39 INFO  accountCreateionValidation:39 - =================Start AccountCreation Test====================
+2018-06-24 11:52:40 INFO  AuthenticationPage:49 - Successfully landed to :Authentication
+2018-06-24 11:52:41 INFO  CreateAnAccountPage:97 - Male Gender is selected succesfully.
+2018-06-24 11:52:42 INFO  CreateAnAccountPage:105 - First name entered.
+2018-06-24 11:52:42 INFO  CreateAnAccountPage:109 - Last name entered.
+2018-06-24 11:52:42 INFO  CreateAnAccountPage:113 - Password entered.
+2018-06-24 11:53:42 INFO  accountCreateionValidation:39 - =================Start AccountCreation Test====================
+2018-06-24 11:53:43 INFO  AuthenticationPage:49 - Successfully landed to :Authentication
+2018-06-24 11:53:45 INFO  CreateAnAccountPage:97 - Male Gender is selected succesfully.
+2018-06-24 11:53:45 INFO  CreateAnAccountPage:105 - First name entered.
+2018-06-24 11:53:45 INFO  CreateAnAccountPage:109 - Last name entered.
+2018-06-24 11:53:45 INFO  CreateAnAccountPage:113 - Password entered.
+2018-06-24 11:54:45 INFO  accountCreateionValidation:39 - =================Start AccountCreation Test====================
+2018-06-24 11:54:46 INFO  AuthenticationPage:49 - Successfully landed to :Authentication
+2018-06-24 11:54:48 INFO  CreateAnAccountPage:97 - Male Gender is selected succesfully.
+2018-06-24 11:54:48 INFO  CreateAnAccountPage:105 - First name entered.
+2018-06-24 11:54:48 INFO  CreateAnAccountPage:109 - Last name entered.
+2018-06-24 11:54:48 INFO  CreateAnAccountPage:113 - Password entered.
+2018-06-24 12:47:46 INFO  TestBase:114 - Creating the object of chrome
+2018-06-24 12:47:48 INFO  TestBase:142 - Navigating to :-http://automationpractice.com/index.php
+2018-06-24 12:47:53 INFO  accountCreateionValidation:39 - =================Start AccountCreation Test====================
+2018-06-24 12:47:54 INFO  AuthenticationPage:49 - Successfully landed to :Authentication
+2018-06-24 12:47:56 INFO  CreateAnAccountPage:97 - Male Gender is selected succesfully.
+2018-06-24 12:47:56 INFO  CreateAnAccountPage:105 - First name entered.
+2018-06-24 12:47:56 INFO  CreateAnAccountPage:109 - Last name entered.
+2018-06-24 12:47:57 INFO  CreateAnAccountPage:113 - Password entered.
+2018-06-24 12:48:57 INFO  accountCreateionValidation:39 - =================Start AccountCreation Test====================
+2018-06-24 12:48:58 INFO  AuthenticationPage:49 - Successfully landed to :Authentication
+2018-06-24 12:48:59 INFO  CreateAnAccountPage:97 - Male Gender is selected succesfully.
+2018-06-24 12:48:59 INFO  CreateAnAccountPage:105 - First name entered.
+2018-06-24 12:49:00 INFO  CreateAnAccountPage:109 - Last name entered.
+2018-06-24 12:49:00 INFO  CreateAnAccountPage:113 - Password entered.
+2018-06-24 12:50:00 INFO  accountCreateionValidation:39 - =================Start AccountCreation Test====================
+2018-06-24 12:50:01 INFO  AuthenticationPage:49 - Successfully landed to :Authentication
+2018-06-24 12:50:03 INFO  CreateAnAccountPage:97 - Male Gender is selected succesfully.
+2018-06-24 12:50:03 INFO  CreateAnAccountPage:105 - First name entered.
+2018-06-24 12:50:03 INFO  CreateAnAccountPage:109 - Last name entered.
+2018-06-24 12:50:03 INFO  CreateAnAccountPage:113 - Password entered.
+2018-06-24 12:51:04 INFO  TestBase:272 - browser closed
+2018-06-24 13:23:48 INFO  TestBase:114 - Creating the object of chrome
+2018-06-24 13:23:50 INFO  TestBase:142 - Navigating to :-http://automationpractice.com/index.php
+2018-06-24 13:23:54 INFO  accountCreateionValidation:39 - =================Start AccountCreation Test====================
+2018-06-24 13:23:55 INFO  AuthenticationPage:49 - Successfully landed to :Authentication
+2018-06-24 13:23:57 INFO  CreateAnAccountPage:97 - Male Gender is selected succesfully.
+2018-06-24 13:23:57 INFO  CreateAnAccountPage:105 - First name entered.
+2018-06-24 13:23:57 INFO  CreateAnAccountPage:109 - Last name entered.
+2018-06-24 13:23:57 INFO  CreateAnAccountPage:113 - Password entered.
+2018-06-24 13:24:58 INFO  accountCreateionValidation:39 - =================Start AccountCreation Test====================
+2018-06-24 13:24:58 INFO  AuthenticationPage:49 - Successfully landed to :Authentication
+2018-06-24 13:25:00 INFO  CreateAnAccountPage:97 - Male Gender is selected succesfully.
+2018-06-24 13:25:00 INFO  CreateAnAccountPage:105 - First name entered.
+2018-06-24 13:25:00 INFO  CreateAnAccountPage:109 - Last name entered.
+2018-06-24 13:25:01 INFO  CreateAnAccountPage:113 - Password entered.
+2018-06-24 13:26:01 INFO  accountCreateionValidation:39 - =================Start AccountCreation Test====================
+2018-06-24 13:26:02 INFO  AuthenticationPage:49 - Successfully landed to :Authentication
+2018-06-24 13:26:03 INFO  CreateAnAccountPage:97 - Male Gender is selected succesfully.
+2018-06-24 13:26:03 INFO  CreateAnAccountPage:105 - First name entered.
+2018-06-24 13:26:03 INFO  CreateAnAccountPage:109 - Last name entered.
+2018-06-24 13:26:04 INFO  CreateAnAccountPage:113 - Password entered.
+2018-06-24 13:27:04 INFO  TestBase:272 - browser closed
+2018-06-24 13:30:47 INFO  TestBase:114 - Creating the object of chrome
+2018-06-24 13:30:49 INFO  TestBase:142 - Navigating to :-http://automationpractice.com/index.php
+2018-06-24 13:30:55 INFO  accountCreateionValidation:39 - =================Start AccountCreation Test====================
+2018-06-24 13:30:56 INFO  AuthenticationPage:49 - Successfully landed to :Authentication
+2018-06-24 13:30:58 INFO  CreateAnAccountPage:97 - Male Gender is selected succesfully.
+2018-06-24 13:30:58 INFO  CreateAnAccountPage:105 - First name entered.
+2018-06-24 13:30:58 INFO  CreateAnAccountPage:109 - Last name entered.
+2018-06-24 13:30:59 INFO  CreateAnAccountPage:113 - Password entered.
+2018-06-24 13:31:59 INFO  accountCreateionValidation:39 - =================Start AccountCreation Test====================
+2018-06-24 13:32:05 INFO  AuthenticationPage:49 - Successfully landed to :Authentication
+2018-06-24 13:32:23 INFO  CreateAnAccountPage:97 - Male Gender is selected succesfully.
+2018-06-24 13:32:28 INFO  CreateAnAccountPage:105 - First name entered.
+2018-06-24 13:32:33 INFO  CreateAnAccountPage:109 - Last name entered.
+2018-06-24 13:32:39 INFO  CreateAnAccountPage:113 - Password entered.
+2018-06-24 13:33:39 INFO  accountCreateionValidation:39 - =================Start AccountCreation Test====================
+2018-06-24 13:33:45 INFO  AuthenticationPage:49 - Successfully landed to :Authentication
+2018-06-24 13:34:03 INFO  CreateAnAccountPage:97 - Male Gender is selected succesfully.
+2018-06-24 13:34:08 INFO  CreateAnAccountPage:105 - First name entered.
+2018-06-24 13:34:13 INFO  CreateAnAccountPage:109 - Last name entered.
+2018-06-24 13:34:18 INFO  CreateAnAccountPage:113 - Password entered.
+2018-06-24 13:35:19 INFO  TestBase:272 - browser closed
+2018-06-24 13:36:32 INFO  TestBase:114 - Creating the object of chrome
+2018-06-24 13:36:34 INFO  TestBase:142 - Navigating to :-http://automationpractice.com/index.php
+2018-06-24 13:36:37 INFO  accountCreateionValidation:39 - =================Start AccountCreation Test====================
+2018-06-24 13:36:38 INFO  AuthenticationPage:49 - Successfully landed to :Authentication
+2018-06-24 13:36:40 INFO  CreateAnAccountPage:97 - Male Gender is selected succesfully.
+2018-06-24 13:36:40 INFO  CreateAnAccountPage:105 - First name entered.
+2018-06-24 13:36:40 INFO  CreateAnAccountPage:109 - Last name entered.
+2018-06-24 13:36:41 INFO  CreateAnAccountPage:113 - Password entered.
+2018-06-24 13:37:41 INFO  accountCreateionValidation:39 - =================Start AccountCreation Test====================
+2018-06-24 13:37:42 INFO  AuthenticationPage:49 - Successfully landed to :Authentication
+2018-06-24 13:37:43 INFO  CreateAnAccountPage:97 - Male Gender is selected succesfully.
+2018-06-24 13:37:43 INFO  CreateAnAccountPage:105 - First name entered.
+2018-06-24 13:37:43 INFO  CreateAnAccountPage:109 - Last name entered.
+2018-06-24 13:37:44 INFO  CreateAnAccountPage:113 - Password entered.
+2018-06-24 13:38:44 INFO  accountCreateionValidation:39 - =================Start AccountCreation Test====================
+2018-06-24 13:38:45 INFO  AuthenticationPage:49 - Successfully landed to :Authentication
+2018-06-24 13:38:46 INFO  CreateAnAccountPage:97 - Male Gender is selected succesfully.
+2018-06-24 13:38:46 INFO  CreateAnAccountPage:105 - First name entered.
+2018-06-24 13:38:47 INFO  CreateAnAccountPage:109 - Last name entered.
+2018-06-24 13:38:47 INFO  CreateAnAccountPage:113 - Password entered.
+2018-06-24 13:39:48 INFO  TestBase:272 - browser closed
+2018-06-24 13:43:06 INFO  TestBase:114 - Creating the object of chrome
+2018-06-24 13:43:07 INFO  TestBase:142 - Navigating to :-http://automationpractice.com/index.php
+2018-06-24 13:43:10 INFO  accountCreateionValidation:39 - =================Start AccountCreation Test====================
+2018-06-24 13:43:11 INFO  AuthenticationPage:49 - Successfully landed to :Authentication
+2018-06-24 13:43:13 INFO  CreateAnAccountPage:97 - Male Gender is selected succesfully.
+2018-06-24 13:43:13 INFO  CreateAnAccountPage:105 - First name entered.
+2018-06-24 13:43:13 INFO  CreateAnAccountPage:109 - Last name entered.
+2018-06-24 13:43:13 INFO  CreateAnAccountPage:113 - Password entered.
+2018-06-24 13:43:13 INFO  CreateAnAccountPage:117 - Day of date of birth has been selected.
+2018-06-24 13:44:13 INFO  accountCreateionValidation:39 - =================Start AccountCreation Test====================
+2018-06-24 13:44:15 INFO  AuthenticationPage:49 - Successfully landed to :Authentication
+2018-06-24 13:44:16 INFO  CreateAnAccountPage:97 - Male Gender is selected succesfully.
+2018-06-24 13:44:16 INFO  CreateAnAccountPage:105 - First name entered.
+2018-06-24 13:44:17 INFO  CreateAnAccountPage:109 - Last name entered.
+2018-06-24 13:44:17 INFO  CreateAnAccountPage:113 - Password entered.
+2018-06-24 13:44:17 INFO  CreateAnAccountPage:117 - Day of date of birth has been selected.
+2018-06-24 13:44:57 INFO  TestBase:114 - Creating the object of chrome
+2018-06-24 13:44:58 INFO  TestBase:142 - Navigating to :-http://automationpractice.com/index.php
+2018-06-24 13:45:01 INFO  accountCreateionValidation:39 - =================Start AccountCreation Test====================
+2018-06-24 13:45:03 INFO  AuthenticationPage:49 - Successfully landed to :Authentication
+2018-06-24 13:45:05 INFO  CreateAnAccountPage:97 - Male Gender is selected succesfully.
+2018-06-24 13:45:05 INFO  CreateAnAccountPage:105 - First name entered.
+2018-06-24 13:45:05 INFO  CreateAnAccountPage:109 - Last name entered.
+2018-06-24 13:45:05 INFO  CreateAnAccountPage:113 - Password entered.
+2018-06-24 13:45:05 INFO  CreateAnAccountPage:117 - Day of date of birth has been selected.
+2018-06-24 13:45:05 INFO  CreateAnAccountPage:119 - Month of date of birth has been selected.
+2018-06-24 13:46:06 INFO  accountCreateionValidation:39 - =================Start AccountCreation Test====================
+2018-06-24 13:46:07 INFO  AuthenticationPage:49 - Successfully landed to :Authentication
+2018-06-24 13:46:08 INFO  CreateAnAccountPage:97 - Male Gender is selected succesfully.
+2018-06-24 13:46:08 INFO  CreateAnAccountPage:105 - First name entered.
+2018-06-24 13:46:08 INFO  CreateAnAccountPage:109 - Last name entered.
+2018-06-24 13:46:09 INFO  CreateAnAccountPage:113 - Password entered.
+2018-06-24 13:46:09 INFO  CreateAnAccountPage:117 - Day of date of birth has been selected.
+2018-06-24 13:46:09 INFO  CreateAnAccountPage:119 - Month of date of birth has been selected.
+2018-06-24 13:47:25 INFO  TestBase:114 - Creating the object of chrome
+2018-06-24 13:47:27 INFO  TestBase:142 - Navigating to :-http://automationpractice.com/index.php
+2018-06-24 13:47:29 INFO  accountCreateionValidation:39 - =================Start AccountCreation Test====================
+2018-06-24 13:47:30 INFO  AuthenticationPage:49 - Successfully landed to :Authentication
+2018-06-24 13:47:32 INFO  CreateAnAccountPage:97 - Male Gender is selected succesfully.
+2018-06-24 13:47:32 INFO  CreateAnAccountPage:105 - First name entered.
+2018-06-24 13:47:32 INFO  CreateAnAccountPage:109 - Last name entered.
+2018-06-24 13:47:33 INFO  CreateAnAccountPage:113 - Password entered.
+2018-06-24 13:47:33 INFO  CreateAnAccountPage:117 - Day of date of birth has been selected.
+2018-06-24 13:47:33 INFO  CreateAnAccountPage:119 - Month of date of birth has been selected.
+2018-06-24 13:48:43 INFO  TestBase:114 - Creating the object of chrome
+2018-06-24 13:48:44 INFO  TestBase:142 - Navigating to :-http://automationpractice.com/index.php
+2018-06-24 13:48:47 INFO  accountCreateionValidation:39 - =================Start AccountCreation Test====================
+2018-06-24 13:48:48 INFO  AuthenticationPage:49 - Successfully landed to :Authentication
+2018-06-24 13:48:51 INFO  CreateAnAccountPage:97 - Male Gender is selected succesfully.
+2018-06-24 13:48:51 INFO  CreateAnAccountPage:105 - First name entered.
+2018-06-24 13:48:52 INFO  CreateAnAccountPage:109 - Last name entered.
+2018-06-24 13:48:52 INFO  CreateAnAccountPage:113 - Password entered.
+2018-06-24 13:48:52 INFO  CreateAnAccountPage:117 - Day of date of birth has been selected.
+2018-06-24 13:48:52 INFO  CreateAnAccountPage:119 - Month of date of birth has been selected.
+2018-06-24 13:49:52 INFO  accountCreateionValidation:39 - =================Start AccountCreation Test====================
+2018-06-24 13:49:53 INFO  AuthenticationPage:49 - Successfully landed to :Authentication
+2018-06-24 13:49:55 INFO  CreateAnAccountPage:97 - Male Gender is selected succesfully.
+2018-06-24 13:49:55 INFO  CreateAnAccountPage:105 - First name entered.
+2018-06-24 13:49:55 INFO  CreateAnAccountPage:109 - Last name entered.
+2018-06-24 13:49:56 INFO  CreateAnAccountPage:113 - Password entered.
+2018-06-24 13:49:56 INFO  CreateAnAccountPage:117 - Day of date of birth has been selected.
+2018-06-24 13:49:56 INFO  CreateAnAccountPage:119 - Month of date of birth has been selected.
+2018-06-24 13:50:46 INFO  TestBase:114 - Creating the object of chrome
+2018-06-24 13:50:47 INFO  TestBase:142 - Navigating to :-http://automationpractice.com/index.php
+2018-06-24 13:50:51 INFO  accountCreateionValidation:39 - =================Start AccountCreation Test====================
+2018-06-24 13:50:52 INFO  AuthenticationPage:49 - Successfully landed to :Authentication
+2018-06-24 13:50:53 INFO  CreateAnAccountPage:97 - Male Gender is selected succesfully.
+2018-06-24 13:50:54 INFO  CreateAnAccountPage:105 - First name entered.
+2018-06-24 13:50:54 INFO  CreateAnAccountPage:109 - Last name entered.
+2018-06-24 13:50:54 INFO  CreateAnAccountPage:113 - Password entered.
+2018-06-24 13:50:54 INFO  CreateAnAccountPage:117 - Day of date of birth has been selected.
+2018-06-24 13:50:54 INFO  CreateAnAccountPage:119 - Month of date of birth has been selected.
+2018-06-24 13:50:54 INFO  CreateAnAccountPage:121 - Year of date of birth has been selected.
+
+2018-06-24 13:50:54 INFO  CreateAnAccountPage:122 - Personal onfor entered succesfully.
+2018-06-24 13:50:55 INFO  CreateAnAccountPage:133 - First name of address lines is entered.
+2018-06-24 13:50:55 INFO  CreateAnAccountPage:137 - Last name of address lines is entered.
+2018-06-24 13:50:55 INFO  CreateAnAccountPage:141 - First Line of address lines is entered.
+2018-06-24 13:50:55 INFO  CreateAnAccountPage:145 - City of address lines is entered.
+2018-06-24 13:50:56 INFO  CreateAnAccountPage:149 - Postal code is entered.
+2018-06-24 13:50:56 INFO  accountCreateionValidation:39 - =================Start AccountCreation Test====================
+2018-06-24 13:50:56 INFO  CreateAnAccountPage:151 - State Name is selected.
+2018-06-24 13:50:57 INFO  AuthenticationPage:49 - Successfully landed to :Authentication
+2018-06-24 13:50:58 INFO  CreateAnAccountPage:97 - Male Gender is selected succesfully.
+2018-06-24 13:50:58 INFO  CreateAnAccountPage:105 - First name entered.
+2018-06-24 13:50:59 INFO  CreateAnAccountPage:109 - Last name entered.
+2018-06-24 13:50:59 INFO  CreateAnAccountPage:113 - Password entered.
+2018-06-24 13:50:59 INFO  CreateAnAccountPage:117 - Day of date of birth has been selected.
+2018-06-24 13:50:59 INFO  CreateAnAccountPage:119 - Month of date of birth has been selected.
+2018-06-24 13:51:56 INFO  accountCreateionValidation:39 - =================Start AccountCreation Test====================
+2018-06-24 13:51:57 INFO  AuthenticationPage:49 - Successfully landed to :Authentication
+2018-06-24 13:51:59 INFO  CreateAnAccountPage:97 - Male Gender is selected succesfully.
+2018-06-24 13:51:59 INFO  CreateAnAccountPage:105 - First name entered.
+2018-06-24 13:51:59 INFO  CreateAnAccountPage:109 - Last name entered.
+2018-06-24 13:51:59 INFO  CreateAnAccountPage:113 - Password entered.
+2018-06-24 13:52:00 INFO  CreateAnAccountPage:117 - Day of date of birth has been selected.
+2018-06-24 13:52:00 INFO  CreateAnAccountPage:119 - Month of date of birth has been selected.
+2018-06-24 13:52:00 INFO  TestBase:272 - browser closed
+2018-06-24 13:52:00 INFO  CreateAnAccountPage:121 - Year of date of birth has been selected.
+
+2018-06-24 13:52:00 INFO  CreateAnAccountPage:122 - Personal onfor entered succesfully.
+2018-06-24 13:52:01 INFO  CreateAnAccountPage:133 - First name of address lines is entered.
+2018-06-24 13:52:01 INFO  CreateAnAccountPage:137 - Last name of address lines is entered.
+2018-06-24 13:52:01 INFO  CreateAnAccountPage:141 - First Line of address lines is entered.
+2018-06-24 13:52:01 INFO  CreateAnAccountPage:145 - City of address lines is entered.
+2018-06-24 13:52:01 INFO  CreateAnAccountPage:149 - Postal code is entered.
+2018-06-24 13:52:01 INFO  CreateAnAccountPage:151 - State Name is selected.
+2018-06-24 13:53:02 INFO  accountCreateionValidation:39 - =================Start AccountCreation Test====================
+2018-06-24 13:53:03 INFO  AuthenticationPage:49 - Successfully landed to :Authentication
+2018-06-24 13:53:04 INFO  CreateAnAccountPage:97 - Male Gender is selected succesfully.
+2018-06-24 13:53:04 INFO  CreateAnAccountPage:105 - First name entered.
+2018-06-24 13:53:04 INFO  CreateAnAccountPage:109 - Last name entered.
+2018-06-24 13:53:05 INFO  CreateAnAccountPage:113 - Password entered.
+2018-06-24 13:53:05 INFO  CreateAnAccountPage:117 - Day of date of birth has been selected.
+2018-06-24 13:53:05 INFO  CreateAnAccountPage:119 - Month of date of birth has been selected.
+2018-06-24 13:53:05 INFO  CreateAnAccountPage:121 - Year of date of birth has been selected.
+
+2018-06-24 13:53:05 INFO  CreateAnAccountPage:122 - Personal onfor entered succesfully.
+2018-06-24 13:53:05 INFO  CreateAnAccountPage:133 - First name of address lines is entered.
+2018-06-24 13:53:06 INFO  CreateAnAccountPage:137 - Last name of address lines is entered.
+2018-06-24 13:53:06 INFO  CreateAnAccountPage:141 - First Line of address lines is entered.
+2018-06-24 13:53:06 INFO  CreateAnAccountPage:145 - City of address lines is entered.
+2018-06-24 13:53:06 INFO  CreateAnAccountPage:149 - Postal code is entered.
+2018-06-24 13:53:06 INFO  CreateAnAccountPage:151 - State Name is selected.
+2018-06-24 13:54:07 INFO  TestBase:272 - browser closed
+2018-06-24 13:55:14 INFO  TestBase:114 - Creating the object of chrome
+2018-06-24 13:55:16 INFO  TestBase:142 - Navigating to :-http://automationpractice.com/index.php
+2018-06-24 13:55:19 INFO  accountCreateionValidation:39 - =================Start AccountCreation Test====================
+2018-06-24 13:55:21 INFO  AuthenticationPage:49 - Successfully landed to :Authentication
+2018-06-24 13:55:22 INFO  CreateAnAccountPage:97 - Male Gender is selected succesfully.
+2018-06-24 13:55:22 INFO  CreateAnAccountPage:105 - First name entered.
+2018-06-24 13:55:23 INFO  CreateAnAccountPage:109 - Last name entered.
+2018-06-24 13:55:23 INFO  CreateAnAccountPage:113 - Password entered.
+2018-06-24 13:55:23 INFO  CreateAnAccountPage:117 - Day of date of birth has been selected.
+2018-06-24 13:55:23 INFO  CreateAnAccountPage:119 - Month of date of birth has been selected.
+2018-06-24 13:55:23 INFO  CreateAnAccountPage:121 - Year of date of birth has been selected.
+
+2018-06-24 13:55:23 INFO  CreateAnAccountPage:122 - Personal onfor entered succesfully.
+2018-06-24 13:55:24 INFO  CreateAnAccountPage:133 - First name of address lines is entered.
+2018-06-24 13:55:24 INFO  CreateAnAccountPage:137 - Last name of address lines is entered.
+2018-06-24 13:55:24 INFO  CreateAnAccountPage:141 - First Line of address lines is entered.
+2018-06-24 13:55:24 INFO  CreateAnAccountPage:145 - City of address lines is entered.
+2018-06-24 13:55:24 INFO  CreateAnAccountPage:149 - Postal code is entered.
+2018-06-24 13:55:24 INFO  CreateAnAccountPage:151 - State Name is selected.
+2018-06-24 13:56:25 INFO  accountCreateionValidation:39 - =================Start AccountCreation Test====================
+2018-06-24 13:56:31 INFO  AuthenticationPage:49 - Successfully landed to :Authentication
+2018-06-24 13:56:48 INFO  CreateAnAccountPage:97 - Male Gender is selected succesfully.
+2018-06-24 13:56:53 INFO  CreateAnAccountPage:105 - First name entered.
+2018-06-24 13:56:59 INFO  CreateAnAccountPage:109 - Last name entered.
+2018-06-24 13:57:04 INFO  CreateAnAccountPage:113 - Password entered.
+2018-06-24 13:57:04 INFO  CreateAnAccountPage:117 - Day of date of birth has been selected.
+2018-06-24 13:57:04 INFO  CreateAnAccountPage:119 - Month of date of birth has been selected.
+2018-06-24 13:57:04 INFO  CreateAnAccountPage:121 - Year of date of birth has been selected.
+
+2018-06-24 13:57:04 INFO  CreateAnAccountPage:122 - Personal onfor entered succesfully.
+2018-06-24 13:57:05 INFO  CreateAnAccountPage:133 - First name of address lines is entered.
+2018-06-24 13:57:05 INFO  CreateAnAccountPage:137 - Last name of address lines is entered.
+2018-06-24 13:57:05 INFO  CreateAnAccountPage:141 - First Line of address lines is entered.
+2018-06-24 13:57:05 INFO  CreateAnAccountPage:145 - City of address lines is entered.
+2018-06-24 13:57:06 INFO  CreateAnAccountPage:149 - Postal code is entered.
+2018-06-24 13:57:06 INFO  CreateAnAccountPage:151 - State Name is selected.
+2018-06-24 13:58:06 INFO  accountCreateionValidation:39 - =================Start AccountCreation Test====================
+2018-06-24 13:58:07 INFO  AuthenticationPage:49 - Successfully landed to :Authentication
+2018-06-24 13:58:08 INFO  CreateAnAccountPage:97 - Male Gender is selected succesfully.
+2018-06-24 13:58:08 INFO  CreateAnAccountPage:105 - First name entered.
+2018-06-24 13:58:08 INFO  CreateAnAccountPage:109 - Last name entered.
+2018-06-24 13:58:09 INFO  CreateAnAccountPage:113 - Password entered.
+2018-06-24 13:58:09 INFO  CreateAnAccountPage:117 - Day of date of birth has been selected.
+2018-06-24 13:58:09 INFO  CreateAnAccountPage:119 - Month of date of birth has been selected.
+2018-06-24 13:58:09 INFO  CreateAnAccountPage:121 - Year of date of birth has been selected.
+
+2018-06-24 13:58:09 INFO  CreateAnAccountPage:122 - Personal onfor entered succesfully.
+2018-06-24 13:58:09 INFO  CreateAnAccountPage:133 - First name of address lines is entered.
+2018-06-24 13:58:10 INFO  CreateAnAccountPage:137 - Last name of address lines is entered.
+2018-06-24 13:58:10 INFO  CreateAnAccountPage:141 - First Line of address lines is entered.
+2018-06-24 13:58:10 INFO  CreateAnAccountPage:145 - City of address lines is entered.
+2018-06-24 13:58:10 INFO  CreateAnAccountPage:149 - Postal code is entered.
+2018-06-24 13:58:10 INFO  CreateAnAccountPage:151 - State Name is selected.
+2018-06-24 13:59:11 INFO  TestBase:272 - browser closed
+2018-06-24 13:59:55 INFO  TestBase:114 - Creating the object of chrome
+2018-06-24 13:59:56 INFO  TestBase:142 - Navigating to :-http://automationpractice.com/index.php
+2018-06-24 13:59:59 INFO  accountCreateionValidation:39 - =================Start AccountCreation Test====================
+2018-06-24 14:00:00 INFO  AuthenticationPage:49 - Successfully landed to :Authentication
+2018-06-24 14:00:01 INFO  CreateAnAccountPage:97 - Male Gender is selected succesfully.
+2018-06-24 14:00:02 INFO  CreateAnAccountPage:105 - First name entered.
+2018-06-24 14:00:02 INFO  CreateAnAccountPage:109 - Last name entered.
+2018-06-24 14:00:02 INFO  CreateAnAccountPage:113 - Password entered.
+2018-06-24 14:00:02 INFO  CreateAnAccountPage:117 - Day of date of birth has been selected.
+2018-06-24 14:00:02 INFO  CreateAnAccountPage:119 - Month of date of birth has been selected.
+2018-06-24 14:00:02 INFO  CreateAnAccountPage:121 - Year of date of birth has been selected.
+
+2018-06-24 14:00:02 INFO  CreateAnAccountPage:122 - Personal onfor entered succesfully.
+2018-06-24 14:00:03 INFO  CreateAnAccountPage:133 - First name of address lines is entered.
+2018-06-24 14:00:03 INFO  CreateAnAccountPage:137 - Last name of address lines is entered.
+2018-06-24 14:00:03 INFO  CreateAnAccountPage:141 - First Line of address lines is entered.
+2018-06-24 14:00:03 INFO  CreateAnAccountPage:145 - City of address lines is entered.
+2018-06-24 14:00:04 INFO  CreateAnAccountPage:149 - Postal code is entered.
+2018-06-24 14:00:04 INFO  CreateAnAccountPage:151 - State Name is selected.
+2018-06-24 14:00:04 INFO  CreateAnAccountPage:153 - Country Name is selected.
+2018-06-24 14:00:04 INFO  CreateAnAccountPage:157 - Mobile Number is entered.
+2018-06-24 14:00:04 INFO  CreateAnAccountPage:161 - Address Alias is entered.
+2018-06-24 14:00:05 INFO  CreateAnAccountPage:163 - Ragister button is clicked
+2018-06-24 14:00:39 INFO  accountCreateionValidation:39 - =================Start AccountCreation Test====================
+2018-06-24 14:00:39 INFO  accountCreateionValidation:39 - =================Start AccountCreation Test====================
+2018-06-24 14:00:39 INFO  TestBase:272 - browser closed
+2018-06-24 14:01:24 INFO  TestBase:114 - Creating the object of chrome
+2018-06-24 14:01:25 INFO  TestBase:142 - Navigating to :-http://automationpractice.com/index.php
+2018-06-24 14:01:29 INFO  accountCreateionValidation:39 - =================Start AccountCreation Test====================
+2018-06-24 14:01:30 INFO  AuthenticationPage:49 - Successfully landed to :Authentication
+2018-06-24 14:01:32 INFO  CreateAnAccountPage:97 - Male Gender is selected succesfully.
+2018-06-24 14:01:32 INFO  CreateAnAccountPage:105 - First name entered.
+2018-06-24 14:01:32 INFO  CreateAnAccountPage:109 - Last name entered.
+2018-06-24 14:01:32 INFO  CreateAnAccountPage:113 - Password entered.
+2018-06-24 14:01:32 INFO  CreateAnAccountPage:117 - Day of date of birth has been selected.
+2018-06-24 14:01:32 INFO  CreateAnAccountPage:119 - Month of date of birth has been selected.
+2018-06-24 14:01:32 INFO  CreateAnAccountPage:121 - Year of date of birth has been selected.
+
+2018-06-24 14:01:32 INFO  CreateAnAccountPage:122 - Personal onfor entered succesfully.
+2018-06-24 14:01:33 INFO  CreateAnAccountPage:133 - First name of address lines is entered.
+2018-06-24 14:01:33 INFO  CreateAnAccountPage:137 - Last name of address lines is entered.
+2018-06-24 14:01:33 INFO  CreateAnAccountPage:141 - First Line of address lines is entered.
+2018-06-24 14:01:33 INFO  CreateAnAccountPage:145 - City of address lines is entered.
+2018-06-24 14:01:34 INFO  CreateAnAccountPage:149 - Postal code is entered.
+2018-06-24 14:01:34 INFO  CreateAnAccountPage:151 - State Name is selected.
+2018-06-24 14:01:34 INFO  CreateAnAccountPage:153 - Country Name is selected.
+2018-06-24 14:01:34 INFO  CreateAnAccountPage:157 - Mobile Number is entered.
+2018-06-24 14:01:34 INFO  CreateAnAccountPage:161 - Address Alias is entered.
+2018-06-24 14:01:35 INFO  CreateAnAccountPage:163 - Ragister button is clicked
+2018-06-24 14:01:35 INFO  accountCreateionValidation:50 - Account of Saurabh Sharma is succesfully created for: 
+2018-06-24 14:01:35 INFO  accountCreateionValidation:51 - =================End AccountCreation Test======================
+2018-06-24 14:01:35 INFO  TestBase:272 - browser closed
+2018-06-24 15:36:30 INFO  TestBase:114 - Creating the object of chrome
+2018-06-24 15:36:32 INFO  TestBase:142 - Navigating to :-http://automationpractice.com/index.php
+2018-06-24 15:36:35 INFO  accountCreateionValidation:39 - =================Start AccountCreation Test====================
+2018-06-24 15:36:36 INFO  AuthenticationPage:49 - Successfully landed to :Authentication
+2018-06-24 15:37:15 INFO  accountCreateionValidation:39 - =================Start AccountCreation Test====================
+2018-06-24 15:37:15 INFO  accountCreateionValidation:39 - =================Start AccountCreation Test====================
+2018-06-24 15:37:15 INFO  TestBase:272 - browser closed
