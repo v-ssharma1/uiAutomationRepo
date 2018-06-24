@@ -11,10 +11,12 @@
 	</listeners>
 	<test name="AuthPageValidation">
 		<classes>
+			<!--class name="com.test.automation.uiAutomation.AuthPageValidation.SignInValidation" 
+				/ -->
+			<!--class
+				name="com.test.automation.uiAutomation.AuthPageValidation.SignUpValidation" /-->
 			<class
-				name="com.test.automation.uiAutomation.AuthPageValidation.SignInValidation" />
-			<class
-				name="com.test.automation.uiAutomation.AuthPageValidation.SignUpValidation" />
+				name="com.test.automation.uiAutomation.AuthPageValidation.accountCreateionValidation" />
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -38,17 +38,27 @@ public class AuthenticationPage extends TestBase {
 
 	@FindBy(xpath = "//h1[contains(text(), 'Create an account')]")
 	WebElement accountCreationPageText;
+	
+	@FindBy(xpath="//li[contains(text(),'An account using this email address has already be')]")
+	WebElement accountExistMessage;
 
 	public AuthenticationPage(WebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
 	}
 
-	public void loginToApp(String email, String pass) {
+	public void clickOnSignin() {
 		signIN.click();
 		log.info("Successfully landed to :" + AuthenticationPageText.getText());
+	}
+	public void loginToApp(String email, String pass) {
+		clickOnSignin();
+		emailAddress.click();
+		emailAddress.clear();
 		emailAddress.sendKeys(email);
 		log.info("Enetered email is: " + email + " and object is: " + emailAddress.toString());
+		password.click();
+		password.clear();
 		password.sendKeys(pass);
 		log.info("Enetered password is: " + pass + " and object is: " + password.toString());
 		signInButtonButton.click();
@@ -61,14 +71,14 @@ public class AuthenticationPage extends TestBase {
 	}
 
 	public String getAuththentcateionPageText() {
-		signIN.click();
 		log.info("Successfully landed to :" + AuthenticationPageText.getText());
 		return AuthenticationPageText.getText();
 	}
 
 	public void signUpToApp(String email) {
-		signIN.click();
-		log.info("Successfully landed to :" + AuthenticationPageText.getText());
+		clickOnSignin();
+		emailAddressForAccountCreation.click();
+		emailAddressForAccountCreation.clear();
 		emailAddressForAccountCreation.sendKeys(email);
 		accountCreationButton.click();
 	}
@@ -76,5 +86,8 @@ public class AuthenticationPage extends TestBase {
 	public String getAccountCreationPageText() {
 		return accountCreationPageText.getText();
 	}
-
+  
+	public String getAccountExistMessage() {
+		return accountExistMessage.getText();
+	}
 }
