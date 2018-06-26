@@ -13,7 +13,7 @@
           <include name="beforeMethod"/>
           <include name="endTest"/>
           <include name="setup"/>
-          <include name="successfullAccountCreationValidation" invocation-numbers="0 1 2 3 4"/>
+          <include name="successfullAccountCreationValidation" invocation-numbers="1 2 3 4 5"/>
           <include name="afterMethod"/>
         </methods>
       </class> <!-- com.test.automation.uiAutomation.AuthPageValidation.accountCreateionValidation -->
