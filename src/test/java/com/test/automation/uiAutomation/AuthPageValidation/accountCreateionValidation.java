@@ -40,11 +40,15 @@ public class accountCreateionValidation extends TestBase {
 		    authenticationPage=new  AuthenticationPage(driver);
 			authenticationPage.signUpToApp(UserName);
 			createAnAccountPage = new CreateAnAccountPage(driver);
-			createAnAccountPage.yourPersonalInfo(Gender, FirstName, LastName, Password, "22", "3",
-					"1999");
+			String [] strdayDob=DayOfDOB.split(".0");
+			String [] strMonthDob=MonthOfDOB.split(".0");
+			String [] strYearDob=YearOfDOB.split(".0");
+			String [] strCountryName=CountryName.split(".0");
+			createAnAccountPage.yourPersonalInfo(Gender, FirstName, LastName, Password, strdayDob[0], strMonthDob[0],
+					strYearDob[0]);
 			getScreenShot("EnterPersonalInfo :" + UserName);
 			createAnAccountPage.yourAddress(FirstName, LastName, FirstLineOfAddress, City, "66061", StateName,
-					"21", "3129753902", AddressAlias);
+					strCountryName[0], "3129753902", AddressAlias);
 			getScreenShot("EnterAddressInfo :" + UserName);
 			createAnAccountPage.clickOnRagisterButton();
 			getScreenShot("WelcomeToYourAccount :" + UserName);
