@@ -140,7 +140,7 @@ public class TestBase {
 	// get url and maximize screen)
 	public void getURL(String URL) {
 		log.info("Navigating to :-" + URL);
-		driver.manage().window().maximize();
+		//driver.manage().window().maximize();
 		driver.get(URL);
 		driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
 	}
